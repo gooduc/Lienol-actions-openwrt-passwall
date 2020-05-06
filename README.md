@@ -5,7 +5,7 @@ actions-openwrt-helloworld
 
 第一代passwall源码完全停止开发(开源源码已经移除)，基于vuejs脚本语言、焕新UI设计的第二代passwall由Lienol等大神们在私有库闭源开发中，看情况和心情，只有极小可能性以后某天开源，不要过分期待。
 
-修改流程文件REPO_URL: 不同库地址（默认lean的https://github.com/coolsnowwolf/lede.git或Lienol的https://github.com/Lienol/openwrt）；REPO_BRANCH: 不同分支 （以Lienol OpenWrt源码为例分支dev-master 激进；dev-19.07 OpenWrt官方平稳版；dev-lean-lede lean的源码）。
+修改流程文件REPO_URL: 不同库地址（默认lean的https://github.com/coolsnowwolf/lede.git 或Lienol的https://github.com/Lienol/openwrt ）；REPO_BRANCH: 不同分支 （以Lienol OpenWrt源码为例分支dev-master 激进；dev-19.07 OpenWrt官方平稳版；dev-lean-lede lean的源码）。
 
 通过修改diy-part1.sh文件修改feeds.conf.default配置。默认添加fw876/helloworld。
 有能力可以添加包含passwall的lienol-openwrt-package试试。
